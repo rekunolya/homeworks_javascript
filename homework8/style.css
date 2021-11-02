@@ -1,0 +1,49 @@
+body {
+  width: 1250px;
+  max-width: 100%;
+  margin: 20px auto;
+  background-color: rgb(250, 247, 204);
+}
+.cardContainer {
+  width: 1250px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+}
+
+.card__name {
+  font-size: 36px;
+  font-weight: 700;
+}
+.card__price {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bugetCars {
+  background-color: rgb(199, 250, 250);
+  font-size: 20px;
+  color: rgb(5, 80, 80);
+  margin-bottom: 20px;
+}
+.middleCars {
+  background-color: rgb(245, 217, 181);
+  font-size: 24px;
+  color: rgb(110, 70, 16);
+  margin-bottom: 20px;
+}
+.premiumCars {
+  background: linear-gradient(#fcc201 0%, #dba514 100%);
+  font-size: 30px;
+  color: rgb(71, 31, 3);
+}

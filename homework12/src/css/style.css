@@ -1,0 +1,37 @@
+.container {
+    width: 1275px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 40px;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    color: #aaa
+}
+
+a {
+    text-decoration: none;
+    color: #aaa
+}
+.card {
+    text-align: left;
+}
+
+.card img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+.title {
+margin-bottom: 10px;
+font-weight: 600;
+font-size: 16px;
+color: #151515
+}
+.date{
+margin-bottom: 5px;
+color: #aaa
+}
